@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MaterialApp</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="label">label</string>
+    <string name="gender">Gender</string>
+    <string name="Goa">GOA</string>
+
+    <string-array name="district">
+        <item>Select-district</item>
+        <item>North Goa</item>
+        <item>South Goa</item>
+    </string-array>
+</resources>
