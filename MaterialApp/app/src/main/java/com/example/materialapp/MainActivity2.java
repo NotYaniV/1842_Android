@@ -24,12 +24,18 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayShowTitleEnabled(false);
+
         TextInputEditText textInput= findViewById(R.id.goa);
         textInput.setFocusable(false);
+
+        MaterialTextView nametext=(MaterialTextView) findViewById(R.id.nametxt);
+        Intent intent= getIntent();
+        String Name= getIntent().getStringExtra("name");
+        nametext.setText(Name);
 
         mDatePicker= findViewById(R.id.datebtn);
         final MaterialTextView dateview= (MaterialTextView) findViewById(R.id.birthtxt);
