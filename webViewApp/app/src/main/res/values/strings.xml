@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">webView App</string>
+    <string name="menu_refresh">menu_refresh</string>
+</resources>
